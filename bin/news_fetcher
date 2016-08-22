@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+require "news_fetcher"
+require "rake"
+
+tasks = ["fetch","help","test"]
+if tasks.include?(ARGV[0])
+	if ARGV[1] and (ARGV[0] == tasks[0])
+		NewsFetcher.fetch  ARGV[1], ARGV[2]
+	else
+		exec "rake #{ARGV[0]}"
+	end
+else
+	exec "rake help:usage"
+end
