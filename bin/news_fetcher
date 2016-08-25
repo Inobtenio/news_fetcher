@@ -7,6 +7,8 @@ tasks = ["fetch","help","test"]
 if tasks.include?(ARGV[0])
 	if ARGV[1] and (ARGV[0] == tasks[0])
 		NewsFetcher.fetch  ARGV[1], ARGV[2], ARGV[3]
+	elsif ARGV[0] == tasks[2]	
+		exec "rake"
 	else
 		exec "rake #{ARGV[0]}"
 	end

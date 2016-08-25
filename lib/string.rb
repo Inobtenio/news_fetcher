@@ -9,7 +9,8 @@ class String
   						"orange": 33,
   						"blue": 34,
   						"purple": 35,
-  						"cyan": 36
+  						"cyan": 36,
+              "gray": 37
   					}
 
   COLORS.each do |color_pair|
