@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '0.0.2'
   s.date        = '2016-08-24'
   s.summary     = "A simple news fetch gem that returns data and prints it in a fancy color. Basic web scrapping."
-  s.description = s.summary
+  s.description = "A simple news fetch gem that returns data and prints it in a fancy color. Basic web scrapping."
   s.authors     = ["Kevin Martin"]
   s.email       = 'kevin.martin@tektonlabs.com'
   s.files       = ["lib/news_fetcher.rb", "lib/string.rb", "bin/news_fetcher", "bin/nf", "lib/tasks"]
