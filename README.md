@@ -1,7 +1,8 @@
 # News Fetcher
 
 News Fetcher is a simple gem that uses Nokogiri for parsing HTML documents fetched from the Internet and returns selected data that can be printed out to Unix STDOUT in a variety of colors like so:
-![Image](http://i.imgur.com/8aRHtHd.png?1)
+
+![Image](http://i.imgur.com/uU30ao2.png?1)
 
 or
 
