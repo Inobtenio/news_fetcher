@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.executables = ["news_fetcher", "nf"]
   s.license     = 'MIT'
   s.add_dependency 'nokogiri', '~> 1.6.7', '>= 1.6.8'
-  s.add_dependency 'rake', '~>11.1.2', '>= 11.1.2'
+  s.add_dependency 'rake', '>=11.1.2', '<13.1.0'
   s.add_development_dependency 'rspec', '~> 3.5'
 end
